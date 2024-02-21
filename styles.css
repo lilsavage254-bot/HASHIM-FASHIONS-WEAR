@@ -1,0 +1,178 @@
+header{
+    background-color: rgb(126, 117, 117);
+    background-image: url(classic\ boutique.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 10px 10px 0px 0px;
+    margin: 10px 10px 0px 0px;
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    background-color: rgb(165, 34, 34);
+    border:none;
+    display:inline-block;
+    margin:0px 40px 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(33, 33, 228);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+a:link{
+    color:rgb(117, 221, 21);
+}
+
+a:visited{
+    color:grey
+}
+
+a:active{
+    color:aliceblue;
+}
+a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(211, 208, 16);
+    background-color: grey;
+}
+
+h1{
+    background-color: rgb(138, 92, 36);
+    color: rgb(36, 148, 51);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    animation-name:Myweb;
+    animation-duration:4s;
+    animation-iteration-count:5;
+    animation-play-state: running;
+    animation-direction: normal;
+    
+    
+}
+
+@keyframes Myweb{
+    from{left:0px 10px 20px 0px};
+    to{right:20px 10px 10px 20px};
+}
+
+@keyframes Myweb{
+    25%{background-color: orange};
+    50%{background-color:rgb(128, 0, 0)};
+    100%{background-color:rgb(138, 92, 36)};
+}
+
+body{
+    background-color: rgb(92, 65, 65);
+    background-repeat: no-repeat;
+}
+
+p{
+    background-color: rgb(160, 107, 212);
+    color: rgb(146, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin:0px 0px 6px 0px;
+    padding:4px;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(60, 124, 71);
+    color: rgb(33, 185, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+figure{
+    display:inline-block;
+    flex-wrap: wrap;
+    border-style: double;
+    border-color: whitesmoke;
+    
+
+    
+}
+
+figure figcaption{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(199, 48, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+section{
+    background-color: rgb(100, 79, 53);
+}
+
+footer{
+    background-color: rgb(58, 118, 167);
+    color: rgb(141, 173, 22);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    padding: 2px;
+}
+
+footer:hover{
+    color: rgb(185, 22, 22);
+    text-transform: uppercase;
+}
+
+#heading{
+    background-color: blue;
+}
+
+form{
+    background-color:rgb(74, 14, 131) ;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    padding: 4px;
+    margin: 5px 0px 5px 0px;
+    color: rgb(173, 18, 26);
+}
+
+button{
+    background-color: rgb(28, 187, 55);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: normal;
+    margin:3px 0px 3px 0px;
+    padding: 4px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(255, 251, 0);
+    text-decoration: underline;
+}
